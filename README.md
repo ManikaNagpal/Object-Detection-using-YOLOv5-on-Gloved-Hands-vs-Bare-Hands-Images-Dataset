@@ -18,7 +18,7 @@ This repository demonstrates **object detection using YOLOv5** to classify and l
 ---
 
 ## Dataset
-Download the file in YOLOv5 format from: (Roboflow)[<https://universe.roboflow.com/glove-uylxg/glove-q7czq/dataset/1>] and upload it in your drive.
+Download the file in YOLOv5 format from: [Roboflow](<https://universe.roboflow.com/glove-uylxg/glove-q7czq/dataset/1>) and upload it in your drive.
 The dataset contains labeled images of hands, categorized as:
 
 - `gloved_hand`

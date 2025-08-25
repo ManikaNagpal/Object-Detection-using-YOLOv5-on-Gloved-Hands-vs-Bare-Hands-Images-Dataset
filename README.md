@@ -18,7 +18,7 @@ This repository demonstrates **object detection using YOLOv5** to classify and l
 ---
 
 ## Dataset
-Download the file in YOLOv5 format from: [Roboflow](<https://universe.roboflow.com/glove-uylxg/glove-q7czq/dataset/1>) and upload it in your drive.
+Download the file in YOLOv5 format from [Roboflow](<https://universe.roboflow.com/glove-uylxg/glove-q7czq/dataset/1>) and upload it in your drive.
 The dataset contains labeled images of hands, categorized as:
 
 - `gloved_hand`
@@ -27,7 +27,22 @@ The dataset contains labeled images of hands, categorized as:
 It is organized into **train**, **validation**, and **test** sets. 
 
 ---
+## Repository Structure
+.
+├── README.md
+├── detection_script_.ipynb
+├── glove_yolov5_valid.zip
+├── yolov5_glovehand_detection_json_results-20250825T074319Z-1-001.zip
+└── yolov5_glovehand_detection_results-20250825T074320Z-1-001.zip
 
+
+- README.md – Project description, instructions, and dataset info.
+- detection_script_.ipynb – Colab notebook containing the full workflow: dataset extraction, training, validation, detection, and result saving.
+- glove_yolov5_valid.zip – Compressed validation results.
+- yolov5_glovehand_detection_json_results-*.zip – JSON-formatted detection results.
+- yolov5_glovehand_detection_results-*.zip – Predicted detection images and label files.
+
+---
 ## Workflow
 
 1. **Setup Environment**

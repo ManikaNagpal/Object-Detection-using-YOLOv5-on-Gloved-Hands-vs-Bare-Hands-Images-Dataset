@@ -28,13 +28,14 @@ It is organized into **train**, **validation**, and **test** sets.
 
 ---
 ## Repository Structure
+```
 .
 ├── README.md
 ├── detection_script_.ipynb
 ├── glove_yolov5_valid.zip
 ├── yolov5_glovehand_detection_json_results-20250825T074319Z-1-001.zip
 └── yolov5_glovehand_detection_results-20250825T074320Z-1-001.zip
-
+```
 
 - README.md – Project description, instructions, and dataset info.
 - detection_script_.ipynb – Colab notebook containing the full workflow: dataset extraction, training, validation, detection, and result saving.

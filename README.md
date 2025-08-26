@@ -84,6 +84,34 @@ It is organized into **train**, **validation**, and **test** sets.
 
 ---
 
+## Results
+
+### Training/Validation Losses
+Loss curves were plotted using Matplotlib:
+[Graph](https://github.com/ManikaNagpal/Object-Detection-using-YOLOv5-on-Gloved-Hands-vs-Bare-Hands-Images-Dataset/blob/main/image.png)
+
+The error/loss dropped significantly and plateaued after ~15 epochs.
+
+### Validation Metrics
+
+| Class        | Images | Instances |    P   |    R   | mAP50 | mAP50-95 |
+|--------------|--------|-----------|--------|--------|-------|----------|
+| all          | 138    | 140       | 0.991  | 0.989  | 0.995 | 0.729    |
+| gloved_hand  | 138    | 38        | 0.992  | 1.000  | 0.995 | 0.630    |
+| bare_hand    | 138    | 102       | 0.990  | 0.977  | 0.994 | 0.828    |
+
+
+
+#### Speed
+- **Preprocess**: 0.3ms  
+- **Inference**: 10.4ms  
+- **NMS**: 3.3ms  
+- **Shape**: (32, 3, 640, 640)  
+
+The model achieved **very high precision (P)**, **recall (R)**, and **mAP50**, indicating strong performance.  
+
+---
+
 ## Outputs
 
 - **Training Results:** `/runs/train/exp`  
